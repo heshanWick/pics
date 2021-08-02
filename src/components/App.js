@@ -13,7 +13,6 @@ class App extends React.Component
             params : {query : term}
         });
 
-        
         this.setState({images : res.data.results});
     }
 
@@ -27,6 +26,5 @@ class App extends React.Component
         );
     }
 }
-
 
 export default App;
